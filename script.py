@@ -26,7 +26,7 @@ def run(filename):
     tmp = []
     step = 0.1
     for command in commands:
-        print command
+        #print command
         if command[0] == 'sphere':
 			add_sphere(tmp,
                        float(command[1]), float(command[2]), float(command[3]),
